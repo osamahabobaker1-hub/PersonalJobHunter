@@ -1,0 +1,30 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+secrets.json
+credentials.json
+
+# Databases and personal data
+*.db
+*.sqlite
+*.sqlite3
+data/
+uploads/
+resumes/
+
+# Logs and temporary files
+*.log
+*.tmp
+.DS_Store
